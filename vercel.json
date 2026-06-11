@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build:chunks",
+  "outputDirectory": "public",
+  "functions": {
+    "api/chat.js": {
+      "maxDuration": 30
+    }
+  }
+}

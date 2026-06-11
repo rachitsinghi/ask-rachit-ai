@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+.vercel
+.env
+.env.local
+chunks.json
+
+# Local extraction artifacts (not needed for deploy)
+_figma_extract.json
+_figma_for_knowledge.txt
+_figma_text_organized.txt
+_audit_*.txt
+_assets/
+_cvs_extracted.txt
+_cvs_manifest.json
+_behance_extract.json

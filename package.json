@@ -1,0 +1,22 @@
+{
+  "name": "ask-rachit-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ask Rachit AI — portfolio chatbot with RAG over knowledge.txt",
+  "type": "module",
+  "dependencies": {
+    "openai": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build:chunks": "node scripts/build-chunks.js",
+    "build": "npm run build:chunks",
+    "local": "sh -c 'set -a && . ./.env.local && set +a && exec vercel dev --listen 3000'",
+    "deploy": "vercel"
+  },
+  "devDependencies": {
+    "vercel": "^54.11.1"
+  }
+}
