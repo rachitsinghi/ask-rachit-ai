@@ -1,8 +1,7 @@
 name: Deploy to Vercel
 
+# Manual fallback only — Vercel deploys automatically on push via Git integration.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
